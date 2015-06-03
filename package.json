@@ -1,0 +1,55 @@
+{
+  "name": "baucis-decorators-example",
+  "version": "1.0.0",
+  "description": "Demonstrates how easy it is to decorate a `baucis` REST API with custom functionality.",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loggur/baucis-decorators-example.git"
+  },
+  "keywords": [
+    "baucis",
+    "decorators",
+    "example",
+    "rest",
+    "api",
+    "custom"
+  ],
+  "author": "timbur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loggur/baucis-decorators-example/issues"
+  },
+  "homepage": "https://github.com/loggur/baucis-decorators-example#readme",
+  "dependencies": {
+    "baucis": "^1.3.1",
+    "baucis-decorator-auth": "^1.0.0",
+    "baucis-decorator-deep-select": "^1.0.1",
+    "baucis-decorator-env": "^1.0.0",
+    "baucis-decorator-file": "^1.0.0",
+    "baucis-decorator-guests": "^1.0.0",
+    "baucis-decorator-init": "^1.0.0",
+    "baucis-decorator-insensitive": "^1.0.0",
+    "baucis-decorator-instance": "^1.0.0",
+    "baucis-decorator-once": "^1.0.0",
+    "baucis-decorator-required": "^1.0.0",
+    "baucis-decorator-reserved": "^1.0.0",
+    "baucis-decorator-update": "^1.0.0",
+    "baucis-decorator-upgrade": "^1.0.1",
+    "baucis-decorator-vote": "^1.0.0",
+    "baucis-decorators": "^1.0.1",
+    "baucis-swagger": "^1.1.2",
+    "body-parser": "^1.12.4",
+    "compression": "^1.4.4",
+    "cookie-parser": "^1.3.5",
+    "deep-extend": "^0.4.0",
+    "express": "^4.12.4",
+    "express-session": "^1.11.2",
+    "mongoose": "^4.0.4",
+    "mongoose-session": "0.0.4",
+    "multer": "^0.1.8"
+  }
+}
