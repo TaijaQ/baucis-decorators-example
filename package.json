@@ -1,6 +1,6 @@
 {
   "name": "baucis-decorators-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Demonstrates how easy it is to decorate a `baucis` REST API with custom functionality.",
   "main": "server/app.js",
   "scripts": {
