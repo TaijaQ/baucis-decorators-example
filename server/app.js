@@ -39,18 +39,18 @@ var swagger = require('baucis-swagger');
 
 // enable sessions
 var session = require('express-session');
-var mongooseSession = require('mongoose-session');
+var MongoStore = require('connect-mongo')(session);
 var cookieParser = require('cookie-parser');
 var secret = 'baucis decorators example';
 app.set('secret', secret);
 app.use(cookieParser(secret));
 app.use(session({
-  key: 'Session',
+  key: 'sessions',
   secret: secret,
-  resave: true,
-  saveUninitialized: true,
-  store: mongooseSession(mongoose, {
-    ttl: 60 * 60 * 24 * 14 // days
+  resave: false,
+  saveUninitialized: false,
+  store: new MongoStore({
+    mongooseConnection: mongoose.connection
   })
 }));
 
