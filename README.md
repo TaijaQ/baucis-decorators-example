@@ -34,6 +34,9 @@ It's probably easiest to just check out the source code in the following order:
 
 1. [server/app.js](https://github.com/loggur/baucis-decorators-example/blob/master/server/app.js)
 2. [routes/api.js](https://github.com/loggur/baucis-decorators-example/blob/master/routes/api.js)
-3. [props](https://github.com/loggur/baucis-decorators-example/tree/master/props)
+3. [controllers/Resource.js](https://github.com/loggur/baucis-decorators-example/blob/master/controllers/Resource.js)
+4. [controllers/User.js](https://github.com/loggur/baucis-decorators-example/blob/master/controllers/User.js)
+5. [controllers/Log.js](https://github.com/loggur/baucis-decorators-example/blob/master/controllers/Log.js)
+6. [props](https://github.com/loggur/baucis-decorators-example/tree/master/props)
 
 And to see how each decorator works, check each repository within [this list](https://github.com/loggur?query=baucis-decorator-).
