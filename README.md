@@ -25,6 +25,7 @@ Demonstrates how easy it is to decorate a [`baucis`](https://github.com/loggur?q
 ```bash
 git clone git@github.com:loggur/baucis-decorators-example.git
 cd baucis-decorators-example
+npm install
 node server/app.js
 open localhost:8080/api-docs
 ```
